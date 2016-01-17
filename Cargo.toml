@@ -1,0 +1,14 @@
+[package]
+name = "wiki_rewrite"
+version = "0.1.0"
+authors = ["Andrew Chin <achin@eminence32.net>"]
+
+[dependencies]
+regex = "*"
+url = "0.5"
+walkdir = "0.1"
+time = "0.1"
+
+[[bin]]
+name="main"
+path="main.rs"
